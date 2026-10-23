@@ -201,3 +201,71 @@
 //   return Object.values( {title, price} );
 // }; console.log(getProductValues({ title: "Ном", price: 5000 }));
 
+// const sumArray = (numbers) => {
+//   let sum = 0;
+//   for (let i = 0; i < numbers.length; i++) {
+//     sum += numbers[i];
+//   }
+//   return sum;
+// };
+// console.log(sumArray([1, 2, 3]));
+
+// const findMin = (numbers) => {
+//   return Math.min(...numbers);
+// };console.log(findMin([3, 9, 2]));
+
+// const getEvenNumbers = (numbers) => {
+//   let evenNumbers = [];
+//   for(let i=0; i<numbers.length;i++){
+//     if(numbers[i]%2===0){
+//         evenNumbers.push(numbers[i])
+//     }
+//   }return evenNumbers
+// };console.log(getEvenNumbers([5, 6, 8, 9]));
+
+// const getNegativeNumbers = (numbers) => {
+//   let negativeNumbers = [];
+//   for (let i = 0; i < numbers.length; i++) {
+//     if (numbers[i] < 0) {
+//       negativeNumbers.push(numbers[i]);
+//     }
+//   }
+//   return negativeNumbers;
+// };
+// console.log(getNegativeNumbers([-2, 3, -5, 0]));
+
+// const sumEvenNumbers = (numbers) => {
+//   let evenNumbers = 0;
+//   for (let i = 0; i < numbers.length; i++) {
+//     if (numbers[i] % 2 === 0) {
+//       evenNumbers = numbers[i] + evenNumbers;
+//     }
+//   }
+//   return evenNumbers;
+// };
+// console.log(sumEvenNumbers([1, 2, 3, 4]));
+
+// const uppercaseWords = (words) => {
+//   let caseWords = [];
+//   for (i = 0; i < words.length; i++) {
+//     caseWords.push(words[i].toUpperCase());
+//   }
+//   return caseWords;
+// };
+// console.log(uppercaseWords(["cat", "dog"]));
+
+// const combineArrays = (firstArray, secondArray) => {
+//   return firstArray.concat(secondArray);
+// };
+// console.log(combineArrays([1, 2],[3, 4]));
+
+// const getExpensiveProducts = (products, minPrice) => {
+//   let expensiveProducts = [];
+//   for (let i = 0; i < products.length; i++) {
+//     if (products[i].price > minPrice) {
+//       expensiveProducts.push(products[i]);
+//     }
+//   }
+//   return expensiveProducts;
+// };console.log(getExpensiveProducts([{ title: "Аяга", price: 2000 }, { title: "Сав", price: 5000 }],3000));
+
